@@ -63,21 +63,12 @@ namespace PdfViewerWebService
                     // Download the file from Box storage
                     var items = await client.FoldersManager.GetFolderItemsAsync(_folderID, 1000, autoPaginate: true);
                     var files = items.Entries.Where(i => i.Type == "file");
-                    string fileIdToDownload = null;
-                    foreach (var file in files)
-                    {
-                        string fileId = file.Id;
-                        string fileName = file.Name;
-                        if (fileName == objectName)
-                        {
-                            // Save the matching fileId
-                            fileIdToDownload = fileId;
-                            break;
-                        }
-                    }
+
+                    // Filter the files based on the objectName
+                    var matchingFile = files.FirstOrDefault(file => file.Name == objectName);
 
                     // Fetch the file from Box storage by its name
-                    var fileStream = await client.FilesManager.DownloadAsync(fileIdToDownload);
+                    var fileStream = await client.FilesManager.DownloadAsync(matchingFile.Id);
                     stream = new MemoryStream();
                     await fileStream.CopyToAsync(stream);
 
