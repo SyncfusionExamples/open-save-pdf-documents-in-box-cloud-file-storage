@@ -21,8 +21,9 @@ import { LinkAnnotationService, BookmarkViewService, MagnificationService,
                 TextSelectionService, PrintService, FormDesignerService, FormFieldsService]
   })
 export class AppComponent implements OnInit {
-      // Replace the "localhost:44309" with the actual URL of your server
+  // Replace the "localhost:44369" with the actual URL of your server
   public service = 'https://localhost:44396/pdfviewer';
+  //Replace `PDF_Succinctly.pdf` with the actual document name that you want to load from box folder
   public document = 'PDF_Succinctly.pdf';
 
   ngOnInit(): void {

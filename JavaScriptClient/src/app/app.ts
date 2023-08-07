@@ -5,6 +5,7 @@ PdfViewer.Inject( Toolbar, Magnification, Navigation, Annotation, LinkAnnotation
                   BookmarkView, TextSelection, TextSearch, FormFields, FormDesigner);
 
 let pdfviewer: PdfViewer = new PdfViewer();
+// Replace the "localhost:44396" with the actual URL of your server
 pdfviewer.serviceUrl = 'https://localhost:44396/pdfviewer';
-pdfviewer.appendTo('#PdfViewer');
-pdfviewer.load('PDF_Succinctly.pdf', null);
+//Replace `PDF_Succinctly.pdf` with the actual document name that you want to load from box folder
+pdfviewer.documentPath = 'PDF_Succinctly.pdf';

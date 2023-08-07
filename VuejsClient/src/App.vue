@@ -20,6 +20,7 @@
       return {
         // Replace the "localhost:44396" with the actual URL of your server
         serviceUrl: "https://localhost:44396/pdfviewer",
+        //Replace `PDF_Succinctly.pdf` with the actual document name that you want to load from box folder
         documentPath: "PDF_Succinctly.pdf"
       };
     },
