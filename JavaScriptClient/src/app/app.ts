@@ -9,3 +9,4 @@ let pdfviewer: PdfViewer = new PdfViewer();
 pdfviewer.serviceUrl = 'https://localhost:44396/pdfviewer';
 //Replace `PDF_Succinctly.pdf` with the actual document name that you want to load from box folder
 pdfviewer.documentPath = 'PDF_Succinctly.pdf';
+pdfviewer.appendTo('#PdfViewer');
