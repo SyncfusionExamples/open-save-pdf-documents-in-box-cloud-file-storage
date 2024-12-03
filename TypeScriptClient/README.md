@@ -1,8 +1,8 @@
-# Essential JS 2 QuickStart
+# Essential&reg; JS 2 QuickStart
 
-This project is a skeleton application used to create [Essential JS 2](https://www.syncfusion.com/products/essential-js2) web application.
+This project is a skeleton application used to create [Essential&reg; JS 2](https://www.syncfusion.com/products/essential-js2) web application.
 
-The application contains Essential JS 2 button component for preview and all common settings are preconfigured.
+The application contains Essential&reg; JS 2 button component for preview and all common settings are preconfigured.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ cd quickstart
 
 ## Installing
 
-We can get all the Essential JS 2 components in a single npm package [`ej2`](https://www.npmjs.com/package/@syncfusion/ej2).
+We can get all the Essential&reg; JS 2 components in a single npm package [`ej2`](https://www.npmjs.com/package/@syncfusion/ej2).
 
 We already configure the required packages in the `package.json` file.
 
@@ -69,7 +69,7 @@ npm run start
 
 ## Resources
 
-You can also refer the below resources to know more details about Essential JS 2 components.
+You can also refer the below resources to know more details about Essential&reg; JS 2 components.
 
 * [Pure JS Demos](http://ej2.syncfusion.com/demos/)
 * [Pure JS Documentation](http://ej2.syncfusion.com/documentation/)
