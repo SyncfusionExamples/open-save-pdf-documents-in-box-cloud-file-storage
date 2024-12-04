@@ -1,6 +1,6 @@
 # open-save-pdf-documents-in-box-cloud-file-storage
 
-This repo contains the examples to open and save PDF documents in  Box cloud file storage using the Syncfusion PDF Viewer
+This repo contains the examples to open and save PDF documents in  Box cloud file storage using the Syncfusion&reg; PDF Viewer
 
 ## WebService Sample
 
@@ -118,4 +118,4 @@ npm install
 npm start
 ```
 
-After following these steps, you should be able to view and interact with PDF documents stored in Box cloud file storage using the Syncfusion PDF Viewer in the respective client application.
+After following these steps, you should be able to view and interact with PDF documents stored in Box cloud file storage using the Syncfusion&reg; PDF Viewer in the respective client application.
